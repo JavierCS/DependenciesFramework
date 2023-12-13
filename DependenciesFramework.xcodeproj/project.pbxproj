@@ -11,6 +11,18 @@
 		7F1EDF662B2967C900477A50 /* DependenciesFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F1EDF5B2B2967C900477A50 /* DependenciesFramework.framework */; };
 		7F1EDF6B2B2967C900477A50 /* DependenciesFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1EDF6A2B2967C900477A50 /* DependenciesFrameworkTests.swift */; };
 		7F1EDF6C2B2967C900477A50 /* DependenciesFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F1EDF5E2B2967C900477A50 /* DependenciesFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7F1EDF9B2B296A1E00477A50 /* Charts in Frameworks */ = {isa = PBXBuildFile; productRef = 7F1EDF9A2B296A1E00477A50 /* Charts */; };
+		7F1EDF9E2B296A8B00477A50 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 7F1EDF9D2B296A8B00477A50 /* Lottie */; };
+		7F1EDFA12B296B0F00477A50 /* AppsFlyerLib in Frameworks */ = {isa = PBXBuildFile; productRef = 7F1EDFA02B296B0F00477A50 /* AppsFlyerLib */; };
+		7F1EDFA42B296B4500477A50 /* CleverTapSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 7F1EDFA32B296B4500477A50 /* CleverTapSDK */; };
+		7F1EDFA72B296BE700477A50 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 7F1EDFA62B296BE700477A50 /* FirebaseAnalytics */; };
+		7F1EDFA92B296BE700477A50 /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = 7F1EDFA82B296BE700477A50 /* FirebaseCrashlytics */; };
+		7F1EDFAB2B296BE700477A50 /* FirebaseDynamicLinks in Frameworks */ = {isa = PBXBuildFile; productRef = 7F1EDFAA2B296BE700477A50 /* FirebaseDynamicLinks */; };
+		7F1EDFAD2B296BE700477A50 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 7F1EDFAC2B296BE700477A50 /* FirebaseFirestore */; };
+		7F1EDFAF2B296BE700477A50 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 7F1EDFAE2B296BE700477A50 /* FirebaseMessaging */; };
+		7F1EDFB12B296BE700477A50 /* FirebasePerformance in Frameworks */ = {isa = PBXBuildFile; productRef = 7F1EDFB02B296BE700477A50 /* FirebasePerformance */; };
+		7F1EDFB32B296BE700477A50 /* FirebaseRemoteConfig in Frameworks */ = {isa = PBXBuildFile; productRef = 7F1EDFB22B296BE700477A50 /* FirebaseRemoteConfig */; };
+		7F1EDFB52B296BE700477A50 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 7F1EDFB42B296BE700477A50 /* FirebaseStorage */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +48,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F1EDFB32B296BE700477A50 /* FirebaseRemoteConfig in Frameworks */,
+				7F1EDFAF2B296BE700477A50 /* FirebaseMessaging in Frameworks */,
+				7F1EDFA42B296B4500477A50 /* CleverTapSDK in Frameworks */,
+				7F1EDFB12B296BE700477A50 /* FirebasePerformance in Frameworks */,
+				7F1EDF9B2B296A1E00477A50 /* Charts in Frameworks */,
+				7F1EDFB52B296BE700477A50 /* FirebaseStorage in Frameworks */,
+				7F1EDF9E2B296A8B00477A50 /* Lottie in Frameworks */,
+				7F1EDFA92B296BE700477A50 /* FirebaseCrashlytics in Frameworks */,
+				7F1EDFA72B296BE700477A50 /* FirebaseAnalytics in Frameworks */,
+				7F1EDFAD2B296BE700477A50 /* FirebaseFirestore in Frameworks */,
+				7F1EDFAB2B296BE700477A50 /* FirebaseDynamicLinks in Frameworks */,
+				7F1EDFA12B296B0F00477A50 /* AppsFlyerLib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -113,6 +137,20 @@
 			dependencies = (
 			);
 			name = DependenciesFramework;
+			packageProductDependencies = (
+				7F1EDF9A2B296A1E00477A50 /* Charts */,
+				7F1EDF9D2B296A8B00477A50 /* Lottie */,
+				7F1EDFA02B296B0F00477A50 /* AppsFlyerLib */,
+				7F1EDFA32B296B4500477A50 /* CleverTapSDK */,
+				7F1EDFA62B296BE700477A50 /* FirebaseAnalytics */,
+				7F1EDFA82B296BE700477A50 /* FirebaseCrashlytics */,
+				7F1EDFAA2B296BE700477A50 /* FirebaseDynamicLinks */,
+				7F1EDFAC2B296BE700477A50 /* FirebaseFirestore */,
+				7F1EDFAE2B296BE700477A50 /* FirebaseMessaging */,
+				7F1EDFB02B296BE700477A50 /* FirebasePerformance */,
+				7F1EDFB22B296BE700477A50 /* FirebaseRemoteConfig */,
+				7F1EDFB42B296BE700477A50 /* FirebaseStorage */,
+			);
 			productName = DependenciesFramework;
 			productReference = 7F1EDF5B2B2967C900477A50 /* DependenciesFramework.framework */;
 			productType = "com.apple.product-type.framework";
@@ -162,6 +200,13 @@
 				Base,
 			);
 			mainGroup = 7F1EDF512B2967C900477A50;
+			packageReferences = (
+				7F1EDF992B296A1E00477A50 /* XCRemoteSwiftPackageReference "Charts" */,
+				7F1EDF9C2B296A8B00477A50 /* XCRemoteSwiftPackageReference "lottie-ios" */,
+				7F1EDF9F2B296B0F00477A50 /* XCRemoteSwiftPackageReference "AppsFlyerFramework" */,
+				7F1EDFA22B296B4500477A50 /* XCRemoteSwiftPackageReference "clevertap-ios-sdk" */,
+				7F1EDFA52B296BE700477A50 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 7F1EDF5C2B2967C900477A50 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -270,7 +315,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -330,7 +375,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -356,6 +401,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -367,6 +413,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.examples.DependenciesFramework;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -387,6 +436,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -398,6 +448,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.examples.DependenciesFramework;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -467,6 +520,112 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7F1EDF992B296A1E00477A50 /* XCRemoteSwiftPackageReference "Charts" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/danielgindi/Charts";
+			requirement = {
+				kind = exactVersion;
+				version = 4.1.0;
+			};
+		};
+		7F1EDF9C2B296A8B00477A50 /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios";
+			requirement = {
+				kind = exactVersion;
+				version = 4.2.0;
+			};
+		};
+		7F1EDF9F2B296B0F00477A50 /* XCRemoteSwiftPackageReference "AppsFlyerFramework" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AppsFlyerSDK/AppsFlyerFramework";
+			requirement = {
+				kind = exactVersion;
+				version = 6.12.2;
+			};
+		};
+		7F1EDFA22B296B4500477A50 /* XCRemoteSwiftPackageReference "clevertap-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/CleverTap/clevertap-ios-sdk";
+			requirement = {
+				kind = exactVersion;
+				version = 5.0.1;
+			};
+		};
+		7F1EDFA52B296BE700477A50 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = exactVersion;
+				version = 10.16.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7F1EDF9A2B296A1E00477A50 /* Charts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7F1EDF992B296A1E00477A50 /* XCRemoteSwiftPackageReference "Charts" */;
+			productName = Charts;
+		};
+		7F1EDF9D2B296A8B00477A50 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7F1EDF9C2B296A8B00477A50 /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+		7F1EDFA02B296B0F00477A50 /* AppsFlyerLib */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7F1EDF9F2B296B0F00477A50 /* XCRemoteSwiftPackageReference "AppsFlyerFramework" */;
+			productName = AppsFlyerLib;
+		};
+		7F1EDFA32B296B4500477A50 /* CleverTapSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7F1EDFA22B296B4500477A50 /* XCRemoteSwiftPackageReference "clevertap-ios-sdk" */;
+			productName = CleverTapSDK;
+		};
+		7F1EDFA62B296BE700477A50 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7F1EDFA52B296BE700477A50 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		7F1EDFA82B296BE700477A50 /* FirebaseCrashlytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7F1EDFA52B296BE700477A50 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCrashlytics;
+		};
+		7F1EDFAA2B296BE700477A50 /* FirebaseDynamicLinks */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7F1EDFA52B296BE700477A50 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDynamicLinks;
+		};
+		7F1EDFAC2B296BE700477A50 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7F1EDFA52B296BE700477A50 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		7F1EDFAE2B296BE700477A50 /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7F1EDFA52B296BE700477A50 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+		7F1EDFB02B296BE700477A50 /* FirebasePerformance */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7F1EDFA52B296BE700477A50 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebasePerformance;
+		};
+		7F1EDFB22B296BE700477A50 /* FirebaseRemoteConfig */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7F1EDFA52B296BE700477A50 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseRemoteConfig;
+		};
+		7F1EDFB42B296BE700477A50 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7F1EDFA52B296BE700477A50 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 7F1EDF522B2967C900477A50 /* Project object */;
 }
