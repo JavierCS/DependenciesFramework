@@ -23,6 +23,7 @@
 		7F1EDFB12B296BE700477A50 /* FirebasePerformance in Frameworks */ = {isa = PBXBuildFile; productRef = 7F1EDFB02B296BE700477A50 /* FirebasePerformance */; };
 		7F1EDFB32B296BE700477A50 /* FirebaseRemoteConfig in Frameworks */ = {isa = PBXBuildFile; productRef = 7F1EDFB22B296BE700477A50 /* FirebaseRemoteConfig */; };
 		7F1EDFB52B296BE700477A50 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 7F1EDFB42B296BE700477A50 /* FirebaseStorage */; };
+		7F1EE0192B29935B00477A50 /* DFController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1EE0182B29935B00477A50 /* DFController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +42,7 @@
 		7F1EDF5F2B2967C900477A50 /* DependenciesFramework.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = DependenciesFramework.docc; sourceTree = "<group>"; };
 		7F1EDF652B2967C900477A50 /* DependenciesFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DependenciesFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F1EDF6A2B2967C900477A50 /* DependenciesFrameworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependenciesFrameworkTests.swift; sourceTree = "<group>"; };
+		7F1EE0182B29935B00477A50 /* DFController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DFController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 		7F1EDF5D2B2967C900477A50 /* DependenciesFramework */ = {
 			isa = PBXGroup;
 			children = (
+				7F1EE0172B29934300477A50 /* TestGroup */,
 				7F1EDF5E2B2967C900477A50 /* DependenciesFramework.h */,
 				7F1EDF5F2B2967C900477A50 /* DependenciesFramework.docc */,
 			);
@@ -107,6 +110,14 @@
 				7F1EDF6A2B2967C900477A50 /* DependenciesFrameworkTests.swift */,
 			);
 			path = DependenciesFrameworkTests;
+			sourceTree = "<group>";
+		};
+		7F1EE0172B29934300477A50 /* TestGroup */ = {
+			isa = PBXGroup;
+			children = (
+				7F1EE0182B29935B00477A50 /* DFController.swift */,
+			);
+			path = TestGroup;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -240,6 +251,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7F1EDF602B2967C900477A50 /* DependenciesFramework.docc in Sources */,
+				7F1EE0192B29935B00477A50 /* DFController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -460,6 +472,7 @@
 		7F1EDF732B2967C900477A50 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = S8N34947Y9;
@@ -476,6 +489,7 @@
 		7F1EDF742B2967C900477A50 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = S8N34947Y9;
